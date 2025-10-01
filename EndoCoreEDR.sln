@@ -1,0 +1,65 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36414.22
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Loader", "EndoCoreEDR\EndoCoreEDR.vcxproj", "{E037A908-B770-4110-9254-00FAE25DA6EE}"
+	ProjectSection(ProjectDependencies) = postProject
+		{3F9C570D-78E7-4C0B-B81C-45922781BA2F} = {3F9C570D-78E7-4C0B-B81C-45922781BA2F}
+		{6EA3FCAC-79D3-41CD-B9B3-1D2464702A5E} = {6EA3FCAC-79D3-41CD-B9B3-1D2464702A5E}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "KrakenHookDLL", "KrakenHookDLL\KrakenHookDLL.vcxproj", "{3F9C570D-78E7-4C0B-B81C-45922781BA2F}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "T-800", "T-800\T-800.vcxproj", "{6EA3FCAC-79D3-41CD-B9B3-1D2464702A5E}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Driver", "Driver\Driver.vcxproj", "{69819D29-B601-4C61-B0E2-E363EC1BE9FA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E037A908-B770-4110-9254-00FAE25DA6EE}.Debug|x64.ActiveCfg = Debug|x64
+		{E037A908-B770-4110-9254-00FAE25DA6EE}.Debug|x64.Build.0 = Debug|x64
+		{E037A908-B770-4110-9254-00FAE25DA6EE}.Debug|x86.ActiveCfg = Debug|Win32
+		{E037A908-B770-4110-9254-00FAE25DA6EE}.Debug|x86.Build.0 = Debug|Win32
+		{E037A908-B770-4110-9254-00FAE25DA6EE}.Release|x64.ActiveCfg = Release|x64
+		{E037A908-B770-4110-9254-00FAE25DA6EE}.Release|x64.Build.0 = Release|x64
+		{E037A908-B770-4110-9254-00FAE25DA6EE}.Release|x86.ActiveCfg = Release|Win32
+		{E037A908-B770-4110-9254-00FAE25DA6EE}.Release|x86.Build.0 = Release|Win32
+		{3F9C570D-78E7-4C0B-B81C-45922781BA2F}.Debug|x64.ActiveCfg = Debug|x64
+		{3F9C570D-78E7-4C0B-B81C-45922781BA2F}.Debug|x64.Build.0 = Debug|x64
+		{3F9C570D-78E7-4C0B-B81C-45922781BA2F}.Debug|x86.ActiveCfg = Debug|Win32
+		{3F9C570D-78E7-4C0B-B81C-45922781BA2F}.Debug|x86.Build.0 = Debug|Win32
+		{3F9C570D-78E7-4C0B-B81C-45922781BA2F}.Release|x64.ActiveCfg = Release|x64
+		{3F9C570D-78E7-4C0B-B81C-45922781BA2F}.Release|x64.Build.0 = Release|x64
+		{3F9C570D-78E7-4C0B-B81C-45922781BA2F}.Release|x86.ActiveCfg = Release|Win32
+		{3F9C570D-78E7-4C0B-B81C-45922781BA2F}.Release|x86.Build.0 = Release|Win32
+		{6EA3FCAC-79D3-41CD-B9B3-1D2464702A5E}.Debug|x64.ActiveCfg = Debug|x64
+		{6EA3FCAC-79D3-41CD-B9B3-1D2464702A5E}.Debug|x64.Build.0 = Debug|x64
+		{6EA3FCAC-79D3-41CD-B9B3-1D2464702A5E}.Debug|x86.ActiveCfg = Debug|Win32
+		{6EA3FCAC-79D3-41CD-B9B3-1D2464702A5E}.Debug|x86.Build.0 = Debug|Win32
+		{6EA3FCAC-79D3-41CD-B9B3-1D2464702A5E}.Release|x64.ActiveCfg = Release|x64
+		{6EA3FCAC-79D3-41CD-B9B3-1D2464702A5E}.Release|x64.Build.0 = Release|x64
+		{6EA3FCAC-79D3-41CD-B9B3-1D2464702A5E}.Release|x86.ActiveCfg = Release|Win32
+		{6EA3FCAC-79D3-41CD-B9B3-1D2464702A5E}.Release|x86.Build.0 = Release|Win32
+		{69819D29-B601-4C61-B0E2-E363EC1BE9FA}.Debug|x64.ActiveCfg = Debug|x64
+		{69819D29-B601-4C61-B0E2-E363EC1BE9FA}.Debug|x64.Build.0 = Debug|x64
+		{69819D29-B601-4C61-B0E2-E363EC1BE9FA}.Debug|x86.ActiveCfg = Debug|x64
+		{69819D29-B601-4C61-B0E2-E363EC1BE9FA}.Debug|x86.Build.0 = Debug|x64
+		{69819D29-B601-4C61-B0E2-E363EC1BE9FA}.Release|x64.ActiveCfg = Release|x64
+		{69819D29-B601-4C61-B0E2-E363EC1BE9FA}.Release|x64.Build.0 = Release|x64
+		{69819D29-B601-4C61-B0E2-E363EC1BE9FA}.Release|x86.ActiveCfg = Release|x64
+		{69819D29-B601-4C61-B0E2-E363EC1BE9FA}.Release|x86.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1C556BC3-61D5-4823-9946-C912604DAD86}
+	EndGlobalSection
+EndGlobal
