@@ -1,0 +1,8 @@
+﻿  main.cpp
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\filesystem(12): warning STL4038: The contents of <filesystem> are available only with C++17 or later.
+C:\Users\star_\source\repos\EndoCore\EndoCoreEDR\T-800\main.cpp(133,13): error C3083: 'filesystem': the symbol to the left of a '::' must be a type
+C:\Users\star_\source\repos\EndoCore\EndoCoreEDR\T-800\main.cpp(133,25): error C2039: 'exists': is not a member of 'std'
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\iostream(19,1):
+      see declaration of 'std'
+  
+C:\Users\star_\source\repos\EndoCore\EndoCoreEDR\T-800\main.cpp(133,25): error C3861: 'exists': identifier not found
