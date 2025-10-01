@@ -116,7 +116,6 @@ Callback = rotina que notifica o EDR quando um evento relevante acontece (carreg
 - Políticas configuráveis (monitor vs bloqueio).
 - Orquestra remediações e envio de telemetria.
 
----
 
 ## 6. Protocolos / IPC (alto nível)
 - **Canal kernel ↔ user:** dispositivo/IOCTLs autenticados; checagem de assinatura do agente; mensagens assinadas.
